@@ -51,5 +51,8 @@ func _init():
 	colours.faded_orange   = ['#af3a03', 130]     # 175-58-3
 	
 func _run() -> void:
-	EditorInterface.distraction_free_mode = false
+	#var test = EditorInterface.get_editor_theme().get_color_list()
+	var test1 = EditorInterface.get_editor_theme().get_type_list()
+	for type in test1:
+		print(EditorInterface.get_editor_theme().get_color_list(type))
 	
