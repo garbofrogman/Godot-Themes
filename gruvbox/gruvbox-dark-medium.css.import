@@ -1,0 +1,13 @@
+[remap]
+
+importer="Godot CSS Importer"
+type="Theme"
+uid="uid://do7k3vish6geq"
+valid=false
+
+[deps]
+
+source_file="res://gruvbox/gruvbox-dark-medium.css"
+
+[params]
+
