@@ -1,0 +1,92 @@
+[gd_resource type="EditorSettings" load_steps=2 format=3 uid="uid://pi7r6w2824k7"]
+
+[sub_resource type="InputEventKey" id="InputEventKey_wjixl"]
+keycode = 4194326
+
+[resource]
+interface/editor/editor_screen = -2
+network/connection/engine_version_update_mode = 1
+interface/theme/base_color = Color(0.21, 0.24, 0.29, 1)
+interface/theme/accent_color = Color(0.44, 0.73, 0.98, 1)
+filesystem/file_dialog/show_hidden_files = true
+filesystem/import/blender/blender_path = "/usr/bin/blender"
+filesystem/tools/oidn/oidn_denoise_path = "/usr/bin"
+text_editor/theme/color_theme = "Gruvbox-Dark"
+text_editor/theme/highlighting/symbol_color = Color(0.984314, 0.945098, 0.780392, 1)
+text_editor/theme/highlighting/keyword_color = Color(0.984314, 0.286275, 0.203922, 1)
+text_editor/theme/highlighting/base_type_color = Color(0.980392, 0.741176, 0.184314, 1)
+text_editor/theme/highlighting/engine_type_color = Color(0.513726, 0.647059, 0.596078, 1)
+text_editor/theme/highlighting/comment_color = Color(0.572549, 0.513726, 0.454902, 1)
+text_editor/theme/highlighting/string_color = Color(0.721569, 0.733333, 0.14902, 1)
+text_editor/theme/highlighting/background_color = Color(0.156863, 0.156863, 0.156863, 1)
+text_editor/theme/highlighting/completion_background_color = Color(0.239216, 0.239216, 0.239216, 1)
+text_editor/theme/highlighting/completion_selected_color = Color(1, 1, 1, 0.0666667)
+text_editor/theme/highlighting/completion_existing_color = Color(1, 1, 1, 0.137255)
+text_editor/theme/highlighting/completion_scroll_color = Color(1, 1, 1, 0.0666667)
+text_editor/theme/highlighting/completion_font_color = Color(0.807843, 0.807843, 0.807843, 1)
+text_editor/theme/highlighting/text_color = Color(0.984314, 0.945098, 0.780392, 1)
+text_editor/theme/highlighting/line_number_color = Color(0.572549, 0.513726, 0.454902, 1)
+text_editor/theme/highlighting/caret_color = Color(0.658824, 0.6, 0.517647, 1)
+text_editor/theme/highlighting/text_selected_color = Color(0.921569, 0.858824, 0.698039, 1)
+text_editor/theme/highlighting/selection_color = Color(0.313726, 0.286275, 0.270588, 1)
+text_editor/theme/highlighting/current_line_color = Color(0.235294, 0.219608, 0.211765, 1)
+text_editor/theme/highlighting/line_length_guideline_color = Color(0.219608, 0.219608, 0.219608, 1)
+text_editor/theme/highlighting/word_highlighted_color = Color(0.184314, 0.172549, 0.168627, 1)
+text_editor/theme/highlighting/number_color = Color(0.827451, 0.52549, 0.607843, 1)
+text_editor/theme/highlighting/function_color = Color(0.556863, 0.752941, 0.486275, 1)
+text_editor/theme/highlighting/member_variable_color = Color(0.901961, 0.305882, 0.34902, 1)
+text_editor/theme/highlighting/mark_color = Color(1, 0.196078, 0.196078, 0.219608)
+text_editor/theme/highlighting/breakpoint_color = Color(1, 0.301961, 0.337255, 1)
+text_editor/theme/highlighting/code_folding_color = Color(0.501961, 0.501961, 0.501961, 1)
+text_editor/theme/highlighting/search_result_color = Color(0.407843, 0.223529, 0.105882, 1)
+text_editor/theme/highlighting/search_result_border_color = Color(1, 1, 1, 0)
+editors/3d_gizmos/gizmo_settings/bone_axis_length = 0.1
+editors/3d/navigation/emulate_numpad = false
+network/connection/network_mode = 1
+project_manager/default_renderer = "mobile"
+editors/3d/navigation/orbit_modifier = 0
+editors/3d/navigation/pan_modifier = 1
+editors/3d/navigation/zoom_modifier = 4
+export/android/java_sdk_path = ""
+export/android/android_sdk_path = ""
+export/android/debug_keystore = "/home/george/.local/share/godot/keystores/debug.keystore"
+export/android/debug_keystore_pass = "android"
+export/macos/rcodesign = ""
+export/web/http_port = 8060
+export/web/tls_key = ""
+export/web/tls_certificate = ""
+export/windows/rcedit = ""
+export/windows/osslsigncode = ""
+export/windows/wine = ""
+_default_feature_profile = ""
+_use_favorites_root_selection = false
+network/debug_adapter/request_timeout = 1000
+editors/grid_map/editor_side = 1
+_editor_settings_advanced_mode = true
+_project_settings_advanced_mode = false
+_export_template_download_directory = "/home/george/.cache/godot"
+_script_setup_templates_dictionary = {}
+_script_setup_use_script_templates = false
+text_editor/theme/highlighting/gdscript/function_definition_color = Color(0.721569, 0.733333, 0.14902, 1)
+text_editor/theme/highlighting/gdscript/node_path_color = Color(0.827451, 0.52549, 0.607843, 1)
+asset_library/available_urls = {
+"godotengine.org (Official)": "https://godotengine.org/asset-library/api"
+}
+shortcuts = [{
+"name": "spatial_editor/viewport_zoom_modifier_1",
+"shortcuts": [SubResource("InputEventKey_wjixl")]
+}, {
+"name": "spatial_editor/viewport_zoom_modifier_2",
+"shortcuts": []
+}]
+metadata/script_setup_templates_dictionary = {
+"Button": "0NodeDefault",
+"Control": "0NodeDefault",
+"ItemList": "0NodeDefault",
+"MeshInstance2D": "0NodeDefault",
+"MeshInstance3D": "0NodeDefault",
+"Node2D": "0NodeDefault",
+"Node3D": "0NodeDefault",
+"Popup": "0NodeDefault",
+"TextureRect": "0NodeDefault"
+}

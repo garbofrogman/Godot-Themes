@@ -1,9 +1,14 @@
 @tool
-extends EditorScript
+extends ProgrammaticTheme
+
+const UPDATE_ON_SAVE = true
 
 var colours: Dictionary = {}
 
-func _init():
+var BUTTON_BG_COLOR = Color.AQUA
+
+func setup():
+	set_save_path("res://gruvbox/generated/gruvbox.tres")
 
 	colours.dark0_hard  = ['#1d2021', 234]     # 29-32-33
 	colours.dark0       = ['#282828', 235]     # 40-40-40
@@ -49,7 +54,10 @@ func _init():
 	colours.faded_purple   = ['#8f3f71', 96]      # 143-63-113
 	colours.faded_aqua     = ['#427b58', 66]      # 66-123-88
 	colours.faded_orange   = ['#af3a03', 130]     # 175-58-3
-	
-func _run() -> void:
-	EditorInterface.distraction_free_mode = false
-	
+
+
+
+func define_theme():
+	define_style("Editor", {
+		 base_color = Color.GREEN
+	})
